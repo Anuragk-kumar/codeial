@@ -1,0 +1,14 @@
+
+   <link rel="stylesheet" href="<%= assetPath('css/user_sign_in.css') %>">
+   <h2>Sing In</h2>
+  <form action="/users/create-section" method="post">
+  
+    <div class="container">
+      <input type="email" placeholder="Email" name="email" required>
+      <input type="password" name="password" placeholder="Password"  required>  
+      <button type="submit">Sing In</button>
+    </div>
+  </form>
+  <p>
+    <a href="/users/auth/google">Google Sign In/Sign Up</a>
+</p>
